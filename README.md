@@ -1,16 +1,34 @@
-# React + Vite
+🎲 How to Play Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Start the game
 
-Currently, two official plugins are available:
+   * When the game loads, you will see 10 dice, each showing a number between 1 and 6.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Roll the dice
 
-## React Compiler
+   * Click the Roll button to roll all dice that are not held.
+   * Each roll gives new random values to the unheld dice.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Hold dice
 
-## Expanding the ESLint configuration
+   * Click on a die to hold it.
+   * Held dice stay the same value when you roll again.
+   * Click a held die again to unhold it.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Match all dice
+
+   * Your goal is to get all 10 dice to show the same number.
+   * Keep rolling and holding dice strategically to match the numbers.
+
+5. Win the game
+
+   * The game ends when all dice are held and all show the same value.
+   * A confetti appears.
+
+6. Play again
+
+   * Click the New Game button to reset the dice and start over.
+
+🏆 Goal
+
+Match all 10 dice to the same number in as few rolls as possible.
