@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import Die from "./Die"
 import { nanoid } from "nanoid"
 import Confetti from "react-confetti"
-import '../styles/app.css'
+import '../styles/App.css'
 
 export default function App() {
     const [dice, setDice] = useState(() => generateAllNewDice())

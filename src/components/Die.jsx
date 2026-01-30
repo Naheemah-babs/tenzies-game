@@ -1,7 +1,7 @@
 import '../styles/die.css'
 export default function Die(props) {
     const styles = {
-        backgroundColor: props.isHeld ? "#59E391" : "white"
+        backgroundColor: props.isHeld ? "#c231ee" : "white"
     }
     
     return (
