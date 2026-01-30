@@ -1,4 +1,4 @@
-import '../styles/die.css'
+import '../styles/Die.css'
 export default function Die(props) {
     const styles = {
         backgroundColor: props.isHeld ? "#c231ee" : "white"
